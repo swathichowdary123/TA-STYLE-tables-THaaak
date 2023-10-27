@@ -1,0 +1,295 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* general styles */
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+    padding:0 32px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header{
+    padding:20px;
+}
+video{
+    height:700;
+    width:1200px;
+}
+.center{
+    text-align: center;
+}
+.program-heading{
+    font-size: 30px;
+    color:navy;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.program-section{
+    padding:60px;
+}
+.program-heading strong{
+    color:brown;
+}
+.program-text{
+    color:navy;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.p-margin{
+    margin-bottom: 40px;
+}
+.heading-three{
+    font-size: 20px;
+    color:navy;
+    margin-bottom: 12px;
+}
+.link{
+    color:brown;
+    font-size: 12px;
+    text-decoration: none;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.width{
+    width:46%;
+}
+.program-margin{
+    margin-right: 16px;
+}
+.program-margin-bottom{
+    margin-bottom: 20px;
+}
+.text{
+    font-size: 14px;
+    color:navy;
+    margin-bottom: 12px;
+}
+.member-section{
+    background-image: url(assets/cta-bg.jpg);
+    padding: 40px 0;
+}
+.heading-two{
+    font-size: 36px;
+    color:white;
+    margin-bottom: 20px;
+}
+.heading-two strong{
+    color: brown;
+}
+.member-text{
+    color:white;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.member-box{
+    width:70px;
+    height:40px;
+    background-color: brown;
+    color:white;
+    padding:10px;
+    text-decoration: none;
+}
+.classes-section{
+    padding:60px;
+}
+.flex-start{
+    justify-content: flex-start;
+}
+.tab-image{
+    margin-right: 16px;
+}
+.classes-text:hover{
+    color:brown;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.classes-border{
+    background-color: white;
+    height:50px;
+    width:230px;
+    box-shadow: 3px 3px 6px 2px grey;
+    margin-bottom: 20px;
+    padding:14px;
+}
+.classes-box{
+    width:230px;
+    height:50px;
+    background-color: brown;
+    color:white;
+    padding:14px;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+.classes-box a{
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.width-class{
+    width:65%;
+}
+.class-heading{
+    color:navy;
+    margin:20px 0;
+    font-size: 26px;
+}
+.class-text{
+    font-size: 16px;
+    color:grey;
+    margin-bottom: 16px;
+}
+.schedule-section{
+    background-image: url(assets/schedule-bg.jpg);
+    padding:30px 0;
+}
+.schedule-text{
+    color:white;
+    font-size: 16px;
+    line-height: 1.5;
+}
+th,
+td{
+    border-collapse: collapse;
+    padding:20px 20px;
+    border: 1px solid whitesmoke;
+}
+.table-row{
+    border:none;
+    text-align: center;
+}
+.table-color{
+    color:white;
+}
+table{
+    margin-top: 60px;
+}
+.trainers-section{
+    padding:40px;
+}
+.trainer-border{
+    width:400px;
+    padding:20px 20px;
+    background-color: white;
+    box-shadow: 3px 3px 6px 2px grey;
+}
+.trainer-width{
+    width:30.33%;
+}
+.trainer-heading{
+    color:brown;
+    margin:20px 0;
+    font-size: 14px;
+}
+.nav a{
+    margin-left: 12px;
+}
+.map-width{
+    width:50%;
+}
+.map-background{
+    background-image: url(assets/contact-bg.jpg);
+    height:450px;
+}
+.details{
+    background-color: white;
+    padding:20px 20px;
+}
+.contact-bottom{
+    margin-bottom: 20px;
+    padding:10px 20px;
+    margin-right: 20px;
+    border:1px solid grey;
+}
+.details{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+}
+.deatils-background{
+    background-color: white;
+    padding:20px 20px;
+    width:500px;
+}
+.input{
+    width:100%;
+    padding:20px 20px;
+    margin-bottom: 20px;
+    border:1px solid grey;
+}
+.footer{
+    padding:40px;
+    text-align: center;
+}
+.footer strong{
+    color:brown;
+}
+.footer small{
+    color:grey;
+    font-size: 16px;
+}
+form{
+    background-color: white;
+    padding:20px 20px;
+}
+table{
+    margin:0 auto;
+}
